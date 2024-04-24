@@ -20,11 +20,13 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Universidad Nacional Tecnológica de Lima Sur"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="UNIVERSIDAD NACIONAL TECNOLÓGICA DE LIMA SUR"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -174,12 +176,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="51dp"
-        android:layout_height="80dp"
+        android:layout_width="43dp"
+        android:layout_height="61dp"
         android:layout_marginStart="180dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="180dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
         app:srcCompat="@drawable/untels" />
